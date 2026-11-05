@@ -1,0 +1,9 @@
+[submodule "src/livox_ros2_driver"]
+	path = src/livox_ros2_driver
+	url = https://github.com/swordsounds/livox_ros2_driver.git
+[submodule "src/realsense-ros"]
+	path = src/realsense-ros
+	url = https://github.com/realsenseai/realsense-ros.git
+[submodule "src/ros2_calib"]
+	path = src/ros2_calib
+	url = https://github.com/ika-rwth-aachen/ros2_calib.git
