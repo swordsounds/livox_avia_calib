@@ -1,0 +1,10 @@
+# LiDAR-Camera Extrinsic Calibration (T_camera_lidar)
+translation:
+  x: 0.01670000
+  y: -0.06110000
+  z: -0.00080000
+rotation:
+  x: 0.49001657
+  y: -0.48609722
+  z: 0.51835703
+  w: 0.50487547
