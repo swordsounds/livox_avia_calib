@@ -7,3 +7,7 @@
 [submodule "src/ros2_calib"]
 	path = src/ros2_calib
 	url = https://github.com/ika-rwth-aachen/ros2_calib.git
+[submodule "src/image_pipeline"]
+	path = src/image_pipeline
+	url = https://github.com/ros-perception/image_pipeline.git
+	branch = humble
