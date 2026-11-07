@@ -6,7 +6,7 @@
 	url = https://github.com/realsenseai/realsense-ros.git
 [submodule "src/ros2_calib"]
 	path = src/ros2_calib
-	url = https://github.com/ika-rwth-aachen/ros2_calib.git
+	url = https://github.com/swordsounds/ros2_calib.git
 [submodule "src/image_pipeline"]
 	path = src/image_pipeline
 	url = https://github.com/ros-perception/image_pipeline.git
