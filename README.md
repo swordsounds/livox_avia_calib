@@ -108,6 +108,14 @@ Preview the recording command without starting a recording:
 
 ## View an exported calibration in RViz
 
+To continue a previous calibration in ros2_calib, reopen the bag and enter the
+image/point-cloud calibration screen (identity initialization is sufficient).
+Click **Load Calibration YAML** and select `calibration/avia_to_d435i.yaml`.
+This restores the full-precision transform, refreshes the cloud projection, and
+sets the loaded pose as the **Reset All** baseline. It does not restore old
+correspondence pairs; add pairs again to refine the calibration. The file must
+be a direct `T_camera_lidar` export, not inverted TF/URDF text.
+
 On ros2_calib's image/point-cloud screen, use **Export Calibration** and save to
 `calibration/avia_to_d435i.yaml`. It must contain `translation: {x, y, z}` in
 metres and `rotation: {x, y, z, w}` as a quaternion. **View TF/URDF Export**
